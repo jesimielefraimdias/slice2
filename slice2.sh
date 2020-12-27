@@ -14,6 +14,7 @@ sudo systemctl restart mysql
 python3 -m venv slice2-env
 cd slice2-env
 source bin/activate
+pip install --upgrade pip
 python -m pip install -r requirements.txt
 cd src
 python
