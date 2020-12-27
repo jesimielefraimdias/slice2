@@ -6,7 +6,7 @@ app.secret_key = "Secret Key"
 
 #SqlAlchemy Database Configuration With Mysql
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@127.0.0.1:3306/slice2'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@127.0.0.1:3306/slice2'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:computacao@127.0.0.1:3306/slice2'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
@@ -74,5 +74,5 @@ def delete(id):
 
     return redirect(url_for('Index'))
 
-if __name__ == "__main__":
-   app.run(debug=True)
+#if __name__ == "__main__":
+#   app.run(debug=True)
