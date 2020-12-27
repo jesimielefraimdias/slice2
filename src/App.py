@@ -5,6 +5,7 @@ app = Flask(__name__)
 app.secret_key = "Secret Key"
 
 #SqlAlchemy Database Configuration With Mysql
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@127.0.0.1:3306/slice2'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@127.0.0.1:3306/slice2'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
