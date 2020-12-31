@@ -8,8 +8,8 @@ app.secret_key = "Secret Key"
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:''@127.0.0.1:3306/slice2'
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:computacao@127.0.0.1:3306/slice2'
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:computacao@localhost:3306/slice2'
-#app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:computacao@0.0.0.0:3306/slice2'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:computacao@172.28.0.1:3306/slice2'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:computacao@0.0.0.0:3306/slice2'
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:computacao@172.28.0.1:3306/slice2'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
